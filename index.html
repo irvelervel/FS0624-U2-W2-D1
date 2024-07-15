@@ -14,10 +14,12 @@
   </head>
   <body>
     <!-- colori di bootstrap: primary, secondary, success, danger, warning, info, light e dark -->
-    <h1 class="text-success">Esempio di colore per il testo!</h1>
-    <h2 class="text-info mt-3">Altro esempio</h2>
+    <h1 class="text-success ms-2 text-center">
+      Esempio di colore per il testo!
+    </h1>
+    <h2 class="text-info mt-3 ms-2">Altro esempio</h2>
     <div
-      class="bg-danger opacity-50 px-4 pb-4 border border-dark border-2 rounded-bottom"
+      class="bg-danger opacity-50 px-4 pb-4 border border-dark border-2 rounded-bottom ms-2 me-4 shadow-lg"
     >
       <p class="text-light">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
@@ -25,6 +27,24 @@
         nulla exercitationem atque ea et. Assumenda amet, error voluptates
         laudantium sapiente autem repellat.
       </p>
+    </div>
+    <div
+      class="mt-4 bg-danger text-light py-2 d-flex flex-column flex-md-row justify-content-md-between px-md-3"
+    >
+      <ul
+        class="list-unstyled text-center d-flex flex-column flex-md-row mb-md-0"
+      >
+        <li class="me-md-2">Logo</li>
+        <li class="me-md-2">Home</li>
+        <li class="me-md-2">Products</li>
+        <li class="me-md-2">Service</li>
+      </ul>
+      <form class="d-flex justify-content-center">
+        <input class="me-md-1" placeholder="Search" type="text" />
+        <button class="bg-light text-danger px-3 border-0 rounded-pill">
+          Go
+        </button>
+      </form>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
